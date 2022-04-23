@@ -25,32 +25,6 @@ body {
     margin: 0;
 }
 
-header {
-    background-color: #1c1c1c;
-    position: fixed;
-    width: 99%;
-    margin: 10px;
-    top: 0;
-    height: 4vmax;
-}
-
-header>a>img {
-    float: left;
-    margin-top: 0.5vmax;
-    margin-left: 5%;
-    width: 8vmax;
-}
-
-header>nav {
-    float: right;
-    margin-top: 1vmax;
-    margin-right: 5%;
-    font-size: 1.5vmax;
-    font-weight: 900;
-    font-family: Major Mono Display;
-}
-
-
 /* index.html */
 
 #intro {
@@ -63,51 +37,5 @@ header>nav {
     color: white;
     font-size: 3.5vmax;
     font-family: 'Cousine', sans-serif;
-    text-align: left;
-}
-
-
-/* resume.html */
-
-#bio {
-    height: 100%;
-    width: 100%;
-}
-
-#bio>p {
-    margin: 20% 10% 0% 10%;
-    color: white;
-    font-family: Ubuntu Mono;
-    font-size: 2vmax;
-    text-align: center;
-}
-
-#experience {
-    width: 100%;
-    color: white;
-    font-family: Ubuntu Mono;
-}
-
-#experience>h1 {
-    margin: 25% 0% 0% 10%;
-    font-size: 3vmax;
-    text-align: left;
-}
-
-#experience>h2 {
-    margin: 4% 0% 0% 10%;
-    font-size: 2.3vmax;
-    text-align: left;
-}
-
-#experience>h3 {
-    margin-left: 10%;
-    font-size: 2vmax;
-    text-align: left;
-}
-
-#experience>ul {
-    margin-left: 10%;
-    font-size: 1.5vmax;
     text-align: left;
 }
